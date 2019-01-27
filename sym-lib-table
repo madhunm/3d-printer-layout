@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name V2-rescue)(type Legacy)(uri ${KIPRJMOD}/V2-rescue.lib)(options "")(descr ""))
+  (lib (name POWER_LIB)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options " pwr_sym_only")(descr ""))
 )
