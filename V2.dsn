@@ -21,88 +21,35 @@
       )
     )
     (boundary
-      (path pcb 0  243475 -143035  50705 -143035  50705 -80386.9  243475 -80386.9
+      (path pcb 0  243475 -143035  51235 -143035  51235 -80386.9  243475 -80386.9
             243475 -143035)
     )
-    (keepout "" (polygon F.Cu 0  120610 -83460  121440 -83480  121440 -84540  120630 -84520
-            120610 -83460))
-    (keepout "" (polygon B.Cu 0  120610 -83460  121440 -83480  121440 -84540  120630 -84520
-            120610 -83460))
-    (keepout "" (polygon F.Cu 0  123140 -83520  123970 -83540  123970 -84600  123160 -84580
-            123140 -83520))
-    (keepout "" (polygon B.Cu 0  123140 -83520  123970 -83540  123970 -84600  123160 -84580
-            123140 -83520))
-    (keepout "" (polygon F.Cu 0  125690 -83540  126520 -83560  126520 -84620  125710 -84600
-            125690 -83540))
-    (keepout "" (polygon B.Cu 0  125690 -83540  126520 -83560  126520 -84620  125710 -84600
-            125690 -83540))
-    (keepout "" (polygon F.Cu 0  128210 -83550  129040 -83570  129040 -84630  128230 -84610
-            128210 -83550))
-    (keepout "" (polygon B.Cu 0  128210 -83550  129040 -83570  129040 -84630  128230 -84610
-            128210 -83550))
-    (keepout "" (polygon F.Cu 0  130770 -83550  131600 -83570  131600 -84630  130790 -84610
-            130770 -83550))
-    (keepout "" (polygon B.Cu 0  130770 -83550  131600 -83570  131600 -84630  130790 -84610
-            130770 -83550))
-    (keepout "" (polygon F.Cu 0  133320 -83530  134150 -83550  134150 -84610  133340 -84590
-            133320 -83530))
-    (keepout "" (polygon B.Cu 0  133320 -83530  134150 -83550  134150 -84610  133340 -84590
-            133320 -83530))
-    (keepout "" (polygon F.Cu 0  135840 -83530  136670 -83550  136670 -84610  135860 -84590
-            135840 -83530))
-    (keepout "" (polygon B.Cu 0  135840 -83530  136670 -83550  136670 -84610  135860 -84590
-            135840 -83530))
-    (keepout "" (polygon F.Cu 0  138380 -83530  139210 -83550  139210 -84610  138400 -84590
-            138380 -83530))
-    (keepout "" (polygon B.Cu 0  138380 -83530  139210 -83550  139210 -84610  138400 -84590
-            138380 -83530))
-    (keepout "" (polygon F.Cu 0  140960 -83516.3  141790 -83536.3  141790 -84596.3  140980 -84576.3
-            140960 -83516.3))
-    (keepout "" (polygon B.Cu 0  140960 -83516.3  141790 -83536.3  141790 -84596.3  140980 -84576.3
-            140960 -83516.3))
-    (keepout "" (polygon F.Cu 0  143480 -83541.2  144310 -83561.2  144310 -84621.2  143500 -84601.2
-            143480 -83541.2))
-    (keepout "" (polygon B.Cu 0  143480 -83541.2  144310 -83561.2  144310 -84621.2  143500 -84601.2
-            143480 -83541.2))
-    (keepout "" (polygon F.Cu 0  146020 -83514.5  146850 -83534.5  146850 -84594.5  146040 -84574.5
-            146020 -83514.5))
-    (keepout "" (polygon B.Cu 0  146020 -83514.5  146850 -83534.5  146850 -84594.5  146040 -84574.5
-            146020 -83514.5))
-    (keepout "" (polygon F.Cu 0  148550 -83530  149380 -83550  149380 -84610  148570 -84590
-            148550 -83530))
-    (keepout "" (polygon B.Cu 0  148550 -83530  149380 -83550  149380 -84610  148570 -84590
-            148550 -83530))
-    (keepout "" (polygon F.Cu 0  151090 -83534.5  151920 -83554.5  151920 -84614.5  151110 -84594.5
-            151090 -83534.5))
-    (keepout "" (polygon B.Cu 0  151090 -83534.5  151920 -83554.5  151920 -84614.5  151110 -84594.5
-            151090 -83534.5))
-    (keepout "" (polygon F.Cu 0  153640 -83510  154470 -83530  154470 -84590  153660 -84570
-            153640 -83510))
-    (keepout "" (polygon B.Cu 0  153640 -83510  154470 -83530  154470 -84590  153660 -84570
-            153640 -83510))
-    (keepout "" (polygon F.Cu 0  156160 -83560  156990 -83580  156990 -84640  156180 -84620
-            156160 -83560))
-    (keepout "" (polygon B.Cu 0  156160 -83560  156990 -83580  156990 -84640  156180 -84620
-            156160 -83560))
-    (keepout "" (polygon F.Cu 0  158710 -83570  159540 -83590  159540 -84650  158730 -84630
-            158710 -83570))
-    (keepout "" (polygon B.Cu 0  158710 -83570  159540 -83590  159540 -84650  158730 -84630
-            158710 -83570))
-    (keepout "" (polygon F.Cu 0  118040 -83480  118870 -83500  118870 -84560  118060 -84540
-            118040 -83480))
-    (keepout "" (polygon B.Cu 0  118040 -83480  118870 -83500  118870 -84560  118060 -84540
-            118040 -83480))
-    (via "Via[0-1]_900:800_um")
+    (via "Via[0-1]_1400:800_um")
     (rule
       (width 300)
-      (clearance 100.1)
-      (clearance 100.1 (type default_smd))
-      (clearance 25 (type smd_smd))
+      (clearance 190.1)
+      (clearance 190.1 (type default_smd))
+      (clearance 47.5 (type smd_smd))
     )
   )
   (placement
-    (component Inductor_SMD:L_1206_3216Metric
-      (place 33uH1 176610 -96000 back 270 (PN L?))
+    (component "Module:Pololu_Breakout-16_15.2x20.3mm"
+      (place A1 99610 -127380 front 270 (PN "A4988 E2"))
+      (place A4 70688.3 -106349 front 270 (PN "A4988 Z1"))
+      (place A6 100422 -83493.2 front 270 (PN "A4988 X"))
+    )
+    (component "Module:Pololu_Breakout-16_15.2x20.3mm::1"
+      (place A2 99950 -106330 front 270 (PN "A4988 E1"))
+      (place A3 70560 -127092 front 270 (PN "A4988 Z2"))
+      (place A5 70729.7 -83435.2 front 270 (PN "A4988 Y"))
+    )
+    (component Capacitor_SMD:CP_Elec_10x10.5
+      (place C1 195880 -88800 back 270 (PN 680uF))
+    )
+    (component Capacitor_SMD:CP_Elec_10x10.5::1
+      (place C2 171860 -100730 back 90 (PN 220uF))
+    )
+    (component Capacitor_SMD:C_1206_3216Metric
       (place C3 153440 -126490 back 270 (PN 20pF))
       (place C6 154921 -122871 back 0 (PN 1uF))
       (place C10 159671 -120371 back 180 (PN 100nF))
@@ -116,24 +63,9 @@
       (place R5 113141 -131583 back 90 (PN 100k))
       (place R8 112880 -101040 back 270 (PN 700))
       (place R11 162950 -95560 back 0 (PN 100k))
+      (place 47uH1 176580 -95930 back 270 (PN L?))
     )
-    (component "Module:Pololu_Breakout-16_15.2x20.3mm"
-      (place A1 99610 -127380 front 270 (PN "A4988 E2"))
-      (place A4 70158.3 -106189 front 270 (PN "A4988 Z1"))
-      (place A6 100422 -83493.2 front 270 (PN "A4988 X"))
-    )
-    (component "Module:Pololu_Breakout-16_15.2x20.3mm::1"
-      (place A2 99950 -106330 front 270 (PN "A4988 E1"))
-      (place A3 70030 -127222 front 270 (PN "A4988 Z2"))
-      (place A5 70729.7 -83305.2 front 270 (PN "A4988 Y"))
-    )
-    (component Capacitor_SMD:CP_Elec_10x10.5
-      (place C1 195880 -88800 back 270 (PN 680uF))
-    )
-    (component Capacitor_SMD:CP_Elec_10x10.5::1
-      (place C2 171860 -100730 back 90 (PN 220uF))
-    )
-    (component Capacitor_SMD:C_1206_3216Metric
+    (component Capacitor_SMD:C_1206_3216Metric::1
       (place C4 159671 -122871 back 0 (PN 20pF))
       (place C5 154921 -120371 back 0 (PN 10nF))
       (place C8 134410 -96840 back 270 (PN 4.7uF))
@@ -223,11 +155,11 @@
       (place R6 176690 -85720 back 180 (PN 0))
     )
     (component "Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical"
-      (place M3 64840 -130680 back 0 (PN "Motor Z2"))
-      (place M5 65520 -86800 back 0 (PN "Motor Y"))
+      (place M3 65370 -130550 back 0 (PN "Motor Z2"))
+      (place M5 65520 -86930 back 0 (PN "Motor Y"))
     )
     (component "Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical::1"
-      (place M4 64990 -109670 back 0 (PN "Motor Z1"))
+      (place M4 65520 -109830 back 0 (PN "Motor Z1"))
       (place M6 95210 -86970 back 0 (PN "Motor X"))
     )
     (component Button_Switch_THT:SW_PUSH_6mm
@@ -246,20 +178,6 @@
     )
   )
   (library
-    (image Inductor_SMD:L_1206_3216Metric
-      (outline (path signal 100  -1600 -800  -1600 800))
-      (outline (path signal 100  -1600 800  1600 800))
-      (outline (path signal 100  1600 800  1600 -800))
-      (outline (path signal 100  1600 -800  -1600 -800))
-      (outline (path signal 120  -602.064 910  602.064 910))
-      (outline (path signal 120  -602.064 -910  602.064 -910))
-      (outline (path signal 50  -2280 -1120  -2280 1120))
-      (outline (path signal 50  -2280 1120  2280 1120))
-      (outline (path signal 50  2280 1120  2280 -1120))
-      (outline (path signal 50  2280 -1120  -2280 -1120))
-      (pin RoundRect[T]Pad_1250x1750_250.951_um 1 -1400 0)
-      (pin RoundRect[T]Pad_1250x1750_250.951_um 2 1400 0)
-    )
     (image "Module:Pololu_Breakout-16_15.2x20.3mm"
       (outline (path signal 120  11430 1400  11430 -19180))
       (outline (path signal 120  1270 -1270  1270 -19180))
@@ -425,6 +343,20 @@
       (pin RoundRect[T]Pad_4400x2500_250.951_um 2 4200 0)
     )
     (image Capacitor_SMD:C_1206_3216Metric
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (outline (path signal 120  -602.064 910  602.064 910))
+      (outline (path signal 120  -602.064 -910  602.064 -910))
+      (outline (path signal 50  -2280 -1120  -2280 1120))
+      (outline (path signal 50  -2280 1120  2280 1120))
+      (outline (path signal 50  2280 1120  2280 -1120))
+      (outline (path signal 50  2280 -1120  -2280 -1120))
+      (pin RoundRect[T]Pad_1250x1750_250.951_um 1 -1400 0)
+      (pin RoundRect[T]Pad_1250x1750_250.951_um 2 1400 0)
+    )
+    (image Capacitor_SMD:C_1206_3216Metric::1
       (outline (path signal 50  2280 -1120  -2280 -1120))
       (outline (path signal 50  2280 1120  2280 -1120))
       (outline (path signal 50  -2280 1120  2280 1120))
@@ -1726,21 +1658,17 @@
       (shape (rect B.Cu -900 -900 900 900))
       (attach off)
     )
-    (padstack "Via[0-1]_900:800_um"
-      (shape (circle F.Cu 900))
-      (shape (circle B.Cu 900))
+    (padstack "Via[0-1]_1400:800_um"
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
       (attach off)
     )
   )
   (network
-    (net "Net-(33uH1-Pad1)"
-      (pins 33uH1-1 D1-1 U1-2)
-    )
     (net +5V
-      (pins 33uH1-2 A1-2 A1-10 A1-11 A1-12 A1-13 A1-14 A2-14 A2-13 A2-12 A2-11 A2-10
-        A2-2 A3-14 A3-13 A3-12 A3-11 A3-10 A3-2 A4-2 A4-10 A4-11 A4-12 A4-13 A4-14
-        A5-14 A5-13 A5-12 A5-11 A5-10 A5-2 A6-2 A6-11 A6-12 A6-13 A6-14 C2-1 D2-1
-        U1-4)
+      (pins A1-2 A1-10 A1-11 A1-12 A1-13 A1-14 A2-14 A2-13 A2-12 A2-11 A2-10 A2-2
+        A3-14 A3-13 A3-12 A3-11 A3-10 A3-2 A4-2 A4-10 A4-11 A4-12 A4-13 A4-14 A5-14
+        A5-13 A5-12 A5-11 A5-10 A5-2 A6-2 A6-11 A6-12 A6-13 A6-14 C2-1 D2-1 U1-4 47uH1-2)
     )
     (net GND
       (pins A1-1 A1-7 A2-7 A2-1 A3-7 A3-1 A4-1 A4-7 A5-7 A5-1 A6-1 A6-7 C1-2 C2-2
@@ -2169,7 +2097,10 @@
     (net "Net-(U3-Pad96)"
       (pins U3-96)
     )
-    (class kicad_default "" +3V3 +5VD GNDD "Net-(33uH1-Pad1)" "Net-(A1-Pad15)"
+    (net "Net-(47uH1-Pad1)"
+      (pins D1-1 U1-2 47uH1-1)
+    )
+    (class kicad_default "" +3V3 +5VD GNDD "Net-(47uH1-Pad1)" "Net-(A1-Pad15)"
       "Net-(A1-Pad16)" "Net-(A1-Pad9)" "Net-(A2-Pad15)" "Net-(A2-Pad16)" "Net-(A2-Pad9)"
       "Net-(A3-Pad15)" "Net-(A3-Pad16)" "Net-(A3-Pad9)" "Net-(A4-Pad15)" "Net-(A4-Pad16)"
       "Net-(A4-Pad9)" "Net-(A5-Pad15)" "Net-(A5-Pad16)" "Net-(A5-Pad9)" "Net-(A6-Pad10)"
@@ -2195,16 +2126,16 @@
       "Net-(U4-Pad19)" "Net-(U4-Pad22)" "Net-(U4-Pad23)" "Net-(U4-Pad24)"
       "Net-(U4-Pad9)"
       (circuit
-        (use_via Via[0-1]_900:800_um)
+        (use_via Via[0-1]_1400:800_um)
       )
       (rule
         (width 300)
-        (clearance 100.1)
+        (clearance 190.1)
       )
     )
     (class Bed "Net-(J3-Pad1)"
       (circuit
-        (use_via Via[0-1]_900:800_um)
+        (use_via Via[0-1]_1400:800_um)
       )
       (rule
         (width 2000)
@@ -2218,7 +2149,7 @@
       "Net-(A5-Pad5)" "Net-(A5-Pad6)" "Net-(A6-Pad3)" "Net-(A6-Pad4)" "Net-(A6-Pad5)"
       "Net-(A6-Pad6)" "Net-(J6-Pad1)" "Net-(J6-Pad3)" "Net-(J7-Pad1)" "Net-(J7-Pad3)"
       (circuit
-        (use_via Via[0-1]_900:800_um)
+        (use_via Via[0-1]_1400:800_um)
       )
       (rule
         (width 800)

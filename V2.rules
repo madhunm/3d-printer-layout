@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 10995)
+    (start_pass_no 2913)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -27,11 +27,11 @@
   )
   (rule
     (width 300.0)
-    (clear 100.2)
+    (clear 190.2)
     (clear 150.0 (type smd_to_turn_gap))
     (clear 500.2 (type default_Bed))
     (clear 300.2 (type default_"High Current"))
-    (clear 25.0 (type smd_smd))
+    (clear 47.6 (type smd_smd))
     (clear 500.2 (type smd_Bed))
     (clear 300.2 (type smd_"High Current"))
     (clear 500.2 (type "kicad_default"_Bed))
@@ -40,38 +40,38 @@
     (clear 500.2 (type Bed_"High Current"))
     (clear 300.2 (type "High Current"_"High Current"))
   )
-  (padstack "Via[0-1]_900:800_um"
+  (padstack "Via[0-1]_1400:800_um"
     (shape
-      (circle F.Cu 900.0 0.0 0.0)
+      (circle F.Cu 1400.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 900.0 0.0 0.0)
+      (circle B.Cu 1400.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-1]_900:800_um" "Via[0-1]_900:800_um" default
+    "Via[0-1]_1400:800_um" "Via[0-1]_1400:800_um" Bed
   )
   (via 
-    "Via[0-1]_900:800_um-kicad_default" "Via[0-1]_900:800_um" "kicad_default"
+    "Via[0-1]_1400:800_um-kicad_default" "Via[0-1]_1400:800_um" Bed
   )
   (via 
-    "Via[0-1]_900:800_um-Bed" "Via[0-1]_900:800_um" Bed
+    "Via[0-1]_1400:800_um-Bed" "Via[0-1]_1400:800_um" Bed
   )
   (via 
-    "Via[0-1]_900:800_um-High Current" "Via[0-1]_900:800_um" "High Current"
+    "Via[0-1]_1400:800_um-High Current" "Via[0-1]_1400:800_um" "High Current"
   )
   (via_rule
-    default "Via[0-1]_900:800_um"
+    default "Via[0-1]_1400:800_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_900:800_um-kicad_default"
+    "kicad_default" "Via[0-1]_1400:800_um-kicad_default"
   )
   (via_rule
-    Bed "Via[0-1]_900:800_um-Bed"
+    Bed "Via[0-1]_1400:800_um-Bed"
   )
   (via_rule
-    "High Current" "Via[0-1]_900:800_um-High Current"
+    "High Current" "Via[0-1]_1400:800_um-High Current"
   )
   (class default
     (clearance_class default)
@@ -84,20 +84,20 @@
     )
   )
   (class "kicad_default"
-    "Net-(33uH1-Pad1)" "Net-(A1-Pad9)" "Net-(A1-Pad15)" "Net-(A1-Pad16)" "Net-(A2-Pad16)" "Net-(A2-Pad15)" "Net-(A2-Pad9)" "Net-(A3-Pad16)"
-    "Net-(A3-Pad15)" "Net-(A3-Pad9)" "Net-(A4-Pad9)" "Net-(A4-Pad15)" "Net-(A4-Pad16)" "Net-(A5-Pad16)" "Net-(A5-Pad15)" "Net-(A5-Pad9)"
-    "Net-(A6-Pad9)" "Net-(A6-Pad15)" "Net-(A6-Pad16)" "Net-(C3-Pad1)" GNDD "Net-(C4-Pad1)" +3V3 "Net-(C17-Pad1)"
-    "Net-(C18-Pad2)" +5VD "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(J20-Pad2)" "Net-(J21-Pad1)" "Net-(J22-Pad2)" "Net-(J26-Pad2)"
-    "Net-(J26-Pad3)" "Net-(J26-Pad1)" "Net-(J27-Pad4)" "Net-(J27-Pad5)" "Net-(J27-Pad6)" "Net-(J27-Pad7)" "Net-(J27-Pad8)" "Net-(J27-Pad9)"
-    "Net-(J27-Pad10)" "Net-(J27-Pad11)" "Net-(J27-Pad12)" "Net-(J27-Pad13)" "Net-(J27-Pad14)" "Net-(J31-Pad2)" "Net-(J32-Pad3)" "Net-(J32-Pad2)"
-    "Net-(LS1-Pad1)" "Net-(Q1-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(R7-Pad1)" "Net-(SW2-Pad1)" "Net-(SW3-Pad1)"
-    "Net-(SW4-Pad1)" "Net-(SW5-Pad1)" "Net-(SW6-Pad1)" "Net-(SW7-Pad1)" "Net-(SW8-Pad1)" "Net-(SW9-Pad1)" "Net-(SW10-Pad1)" "Net-(SW11-Pad1)"
-    "Net-(U3-Pad2)" "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad9)" "Net-(U3-Pad14)" "Net-(U3-Pad73)" "Net-(U3-Pad92)"
-    "Net-(U3-Pad93)" "Net-(U4-Pad1)" "Net-(U4-Pad9)" "Net-(U4-Pad10)" "Net-(U4-Pad11)" "Net-(U4-Pad12)" "Net-(U4-Pad13)" "Net-(U4-Pad14)"
-    "Net-(U4-Pad15)" "Net-(U4-Pad17)" "Net-(U4-Pad18)" "Net-(U4-Pad19)" "Net-(U4-Pad22)" "Net-(U4-Pad23)" "Net-(U4-Pad24)" "Net-(A6-Pad10)"
-    "Net-(J27-Pad15)" "Net-(Q6-Pad1)" "Net-(J6-Pad2)" "Net-(J7-Pad2)" "Net-(U3-Pad1)" "Net-(U3-Pad7)" "Net-(U3-Pad8)" "Net-(U3-Pad55)"
-    "Net-(U3-Pad72)" "Net-(U3-Pad76)" "Net-(U3-Pad77)" "Net-(U3-Pad78)" "Net-(U3-Pad79)" "Net-(U3-Pad80)" "Net-(U3-Pad81)" "Net-(U3-Pad82)"
-    "Net-(U3-Pad83)" "Net-(U3-Pad84)" "Net-(U3-Pad85)" "Net-(U3-Pad86)" "Net-(U3-Pad95)" "Net-(U3-Pad96)"
+    "Net-(A1-Pad9)" "Net-(A1-Pad15)" "Net-(A1-Pad16)" "Net-(A2-Pad16)" "Net-(A2-Pad15)" "Net-(A2-Pad9)" "Net-(A3-Pad16)" "Net-(A3-Pad15)"
+    "Net-(A3-Pad9)" "Net-(A4-Pad9)" "Net-(A4-Pad15)" "Net-(A4-Pad16)" "Net-(A5-Pad16)" "Net-(A5-Pad15)" "Net-(A5-Pad9)" "Net-(A6-Pad9)"
+    "Net-(A6-Pad15)" "Net-(A6-Pad16)" "Net-(C3-Pad1)" GNDD "Net-(C4-Pad1)" +3V3 "Net-(C17-Pad1)" "Net-(C18-Pad2)"
+    +5VD "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(J20-Pad2)" "Net-(J21-Pad1)" "Net-(J22-Pad2)" "Net-(J26-Pad2)" "Net-(J26-Pad3)"
+    "Net-(J26-Pad1)" "Net-(J27-Pad4)" "Net-(J27-Pad5)" "Net-(J27-Pad6)" "Net-(J27-Pad7)" "Net-(J27-Pad8)" "Net-(J27-Pad9)" "Net-(J27-Pad10)"
+    "Net-(J27-Pad11)" "Net-(J27-Pad12)" "Net-(J27-Pad13)" "Net-(J27-Pad14)" "Net-(J31-Pad2)" "Net-(J32-Pad3)" "Net-(J32-Pad2)" "Net-(LS1-Pad1)"
+    "Net-(Q1-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(R7-Pad1)" "Net-(SW2-Pad1)" "Net-(SW3-Pad1)" "Net-(SW4-Pad1)"
+    "Net-(SW5-Pad1)" "Net-(SW6-Pad1)" "Net-(SW7-Pad1)" "Net-(SW8-Pad1)" "Net-(SW9-Pad1)" "Net-(SW10-Pad1)" "Net-(SW11-Pad1)" "Net-(U3-Pad2)"
+    "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad9)" "Net-(U3-Pad14)" "Net-(U3-Pad73)" "Net-(U3-Pad92)" "Net-(U3-Pad93)"
+    "Net-(U4-Pad1)" "Net-(U4-Pad9)" "Net-(U4-Pad10)" "Net-(U4-Pad11)" "Net-(U4-Pad12)" "Net-(U4-Pad13)" "Net-(U4-Pad14)" "Net-(U4-Pad15)"
+    "Net-(U4-Pad17)" "Net-(U4-Pad18)" "Net-(U4-Pad19)" "Net-(U4-Pad22)" "Net-(U4-Pad23)" "Net-(U4-Pad24)" "Net-(A6-Pad10)" "Net-(J27-Pad15)"
+    "Net-(Q6-Pad1)" "Net-(J6-Pad2)" "Net-(J7-Pad2)" "Net-(U3-Pad1)" "Net-(U3-Pad7)" "Net-(U3-Pad8)" "Net-(U3-Pad55)" "Net-(U3-Pad72)"
+    "Net-(U3-Pad76)" "Net-(U3-Pad77)" "Net-(U3-Pad78)" "Net-(U3-Pad79)" "Net-(U3-Pad80)" "Net-(U3-Pad81)" "Net-(U3-Pad82)" "Net-(U3-Pad83)"
+    "Net-(U3-Pad84)" "Net-(U3-Pad85)" "Net-(U3-Pad86)" "Net-(U3-Pad95)" "Net-(U3-Pad96)" "Net-(47uH1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
