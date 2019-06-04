@@ -1,4 +1,4 @@
-18309798496004058
+18311458425624058
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42286,6 +42286,13 @@ Diode Polymer Protected Zener Diode Littelfuse LS
 0
 3
 3
+Diode_SMD
+SS14
+
+
+0
+2
+2
 Diode_THT
 Diode_Bridge_15.1x15.1x6.3mm_P10.9mm
 Single phase bridge rectifier case 15.1x15.1mm, pitch 10.9mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/pb1000.pdf
@@ -73904,7 +73911,7 @@ USB A-type vertical receptacle, Lumberg P/N 2410-01
 
 0
 6
-4
+5
 w_conn_pc
 conn_usb_Ax2
 USB A-type receptacle, 2x stacked, Tyco P/N 5787617-3
